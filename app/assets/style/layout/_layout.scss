@@ -1,0 +1,30 @@
+.icons {
+  color: $secondary;
+  line-height: 24px;
+}
+
+.cart-icon {
+  position: relative;
+  &::after {
+    content: "3";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    color: white;
+    background-color: $primary;
+    right: -3px;
+    top: 2px;
+  }
+}
+
+.burger-menu {
+  display: none;
+  width: 100%;
+  top: 100%;
+  z-index: 100;
+}
+
+.show {
+  display: block;
+}
