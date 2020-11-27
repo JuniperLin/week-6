@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>D'PERFUME - Login</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <!-- header navbar -->
+  <header class="position-relative">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-light bg-light col-12">
+          <a class="navbar-brand mr-0" href="index.html">
+            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfume.png?raw=true" class="d-inline-block align-top" alt="" loading="lazy">
+          </a>
+          <!-- md nav-list -->
+          <ul class="nav d-none d-md-flex">
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center text-secondary h5 font-weight-normal mb-0" href="product.html">
+                <span class="material-icons">store</span>Product
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center text-secondary h5 font-weight-normal mb-0" href="login.html">
+                <span class="material-icons">person</span>Log In
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center text-secondary h5 font-weight-normal mb-0" href="#">
+                <span class="material-icons">favorite</span>Wishlist
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center text-secondary h5 font-weight-normal mb-0" href="#">
+                <span class="material-icons">shopping_cart</span>Cart(3)
+              </a>
+            </li>
+          </ul>
+          <!-- sm burger btn -->
+          <ul class="nav d-md-none">
+            <li class="nav-item">
+              <button class="btn" type="button">
+                <span class="material-icons icons cart-icon h5 mb-0">shopping_cart</span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn burger-btn" type="button">
+                <span class="material-icons icons">menu</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- sm nav-list -->
+    <ul class="burger-menu nav bg-secondary position-absolute">
+      <li class="nav-item border-bottom">
+        <a class="nav-link d-flex align-items-center justify-content-center text-light h5 font-weight-normal mb-0 py-3" href="product.html">
+          Product
+        </a>
+      </li>
+      <li class="nav-item border-bottom">
+        <a class="nav-link d-flex align-items-center justify-content-center text-light h5 font-weight-normal mb-0 py-3" href="#">
+          Wishlist
+        </a>
+      </li>
+      <li class="nav-item border-bottom">
+        <a class="nav-link d-flex align-items-center justify-content-center text-light h5 font-weight-normal mb-0 py-3" href="#">
+         Blog
+        </a>
+      </li>
+      <li class="nav-item border-bottom">
+        <a class="nav-link d-flex align-items-center justify-content-center text-light h5 font-weight-normal mb-0 py-3" href="#">
+          Contact
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link d-flex align-items-center justify-content-center text-light h5 font-weight-normal mb-0 py-3" href="login.html">
+          Log In
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  
+<!-- product sub-nav -->
+<div class="sub-nav bg-primary d-none d-md-block">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link h5 mb-0 font-weight-normal text-light pl-0" href="#">CHANEL<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5 mb-0 font-weight-normal text-light" href="#">Jo Malone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5 mb-0 font-weight-normal text-light" href="#">Curology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5 mb-0 font-weight-normal text-light" href="#">Dior</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5 mb-0 font-weight-normal text-light" href="#">Chloe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h5 mb-0 font-weight-normal text-light" href="#">ZARA</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!-- login -->
+<div class="login py-9 py-md-13">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 mb-7 mb-md-0">
+                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80">
+            </div>
+            <div class="col-12 col-md-4 align-self-center">
+                <form>
+                    <h2 class="font-weight-bold">Log in</h2>
+                    <div class="form-group">
+                        <label for="inputEmail">帳號</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword">密碼</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a class="text-primary" href="#">忘記密碼</a>
+                        <div class="btn-groups">
+                            <button type="button" class="btn btn-light border-primary text-primary">註冊</button>
+                            <button type="button" class="btn btn-primary">
+                                <a class="text-light" href="member-center.html">登入</a> 
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- footer -->
+  <footer class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-light py-5 justify-content-center justify-content-md-between col-12">
+          <a class="navbar-brand d-flex flex-wrap align-items-center mr-0" href="index.html">
+            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfumewhite.png?raw=true" class="d-inline-block align-top" alt="" loading="lazy">
+            <span class="font-sm text-light ml-5">© 2020. All Rights Reserved.</span>
+          </a>
+          <ul class="nav d-none d-md-flex">
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center text-light h5 font-weight-normal mb-0" href="product.html">
+                Product
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center text-light h5 font-weight-normal mb-0" href="login.html">
+                Log In
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center text-light h5 font-weight-normal mb-0" href="#">
+                Wishlist
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
